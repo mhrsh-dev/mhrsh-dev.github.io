@@ -1,0 +1,70 @@
+/* TEXT */
+%message {
+    font: 15px arial,sans-serif;
+    color: #202124;
+}
+// $font: 15px arial,sans-serif;
+// html * {
+//     font: $font;
+//     color: #202124;
+//   }
+
+/* links */
+a {
+    @extend %message;
+    color: rgba(0,0,0,.87);
+    text-decoration: none;
+}
+
+/* FORMS */
+input, button, label {
+    @extend %message;
+    margin-bottom: 10px;
+    font-size: 14px;
+}
+
+/* PAGE STRUCTURE MAIN */
+#header{
+    margin-top: 20px;
+    height: 50px;
+}
+#header-left{
+    text-align: left;
+    float: left;
+}
+#header-mid{
+    float: right;
+}
+#header-right{
+    text-align: right;
+    overflow: hidden;
+}
+#body {
+    margin-bottom: 100px;
+    margin-left: auto;
+    margin-right: auto;
+}
+#body-left{
+    text-align: left;
+}
+#body-mid{
+    text-align: center;
+}
+#body-right{
+    text-align: left;
+}
+#footer {
+    position: fixed;
+    height: 50px;
+    bottom: 50px;
+    left: 0px;
+    right: 0px;
+    margin-top: 100px;
+    margin-bottom: 0px;
+    text-align: center;
+}
+#footer-mid{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    text-align: center;
+}
