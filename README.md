@@ -6,6 +6,7 @@
   <p align="center">
     Just a simple project redirecting google queries.
   </p>
+  The Webside can be seen on my GitHub Page <https://mhrsh-dev.github.io>
 </div>
 
 
