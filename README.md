@@ -1,10 +1,3 @@
-<!-- PROJECT SHIELDS -->
-[![Issues][issues-shield]][https://github.com/mhrsh-dev/mhrsh-dev.github.io/issues]
-[![MIT License][license-shield]][license-url]
-
-
-
-<!-- PROJECT LOGO -->
 <br />
 <div align="center">
 
